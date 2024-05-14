@@ -1,4 +1,4 @@
-(footprint "1.3_0.91 inch Oled screen"
+(footprint "1.3inch Oled screen"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "1.3_0.91 inch Oled screen"
+	(property "Value" "1.3inch Oled screen"
 		(at 0 5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" "1.3_0.91 inch Oled screen"
+	(property "Footprint" "1.3inch Oled screen"
 		(at 0.5 10.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -128,6 +128,17 @@
 		(layer "F.SilkS")
 		(uuid "dfb03bda-753a-48c6-8861-e0aedd2076fa")
 	)
+	(fp_rect
+		(start -17.85 6)
+		(end 17.65 39.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b77f6c24-ab77-408a-8da9-f8a984ef3288")
+	)
 	(fp_line
 		(start -5.7 5.9)
 		(end -5.7 9.5)
@@ -217,6 +228,34 @@
 		)
 		(layer "F.Fab")
 		(uuid "7cfe6218-b34c-4e69-99ad-e3067ee4fad1")
+	)
+	(pad "" np_thru_hole circle
+		(at -16.002 8.128)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "555520e6-6297-427a-9a04-fd2849e658d5")
+	)
+	(pad "" np_thru_hole circle
+		(at -16.002 38)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "aff4a195-872d-46d1-9047-bbd63ffe9ab6")
+	)
+	(pad "" np_thru_hole circle
+		(at 15.748 8)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d28864ec-4416-44a4-9efd-75b89474dd75")
+	)
+	(pad "" np_thru_hole circle
+		(at 15.748 38)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ba6d6512-4744-460d-b795-a7191c2f2ed0")
 	)
 	(pad "1" thru_hole rect
 		(at -3.9 7.7 90)

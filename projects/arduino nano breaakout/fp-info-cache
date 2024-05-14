@@ -1,4 +1,4 @@
-23355150853527412
+23353434991315320
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55986,7 +55986,7 @@ emi filter
 5
 5
 Footprints_cez
-1.3inch Oled screen
+1.3_0.91 inch Oled screen
 
 
 0
@@ -56027,13 +56027,6 @@ N64_controller
 0
 3
 3
-Footprints_cez
-nRF24L01_big
-nRF24L01 breakout board
-nRF24L01 adapter breakout
-0
-14
-9
 Footprints_cez
 nes_controller
 
