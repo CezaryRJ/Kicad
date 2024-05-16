@@ -656,7 +656,7 @@
 		)
 		(fp_arc
 			(start 5.850318 14.881681)
-			(mid 4.53186 15.762642)
+			(mid 4.531861 15.762643)
 			(end 2.976637 16.072)
 			(stroke
 				(width 0.127)
@@ -5489,6 +5489,19 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "bed6c1de-9b45-4e31-a3ec-839c5cca1715")
+	)
+	(gr_text "CRJ"
+		(at 113.03 81.026 0)
+		(layer "F.SilkS")
+		(uuid "6968b82d-7031-4bb3-9ec6-8cb6bb220bb6")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 160.178 103.282)
