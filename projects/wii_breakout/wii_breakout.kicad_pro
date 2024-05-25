@@ -219,7 +219,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "3v radio.kicad_pro",
+    "filename": "wii_breakout.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -236,7 +236,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -254,7 +254,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
