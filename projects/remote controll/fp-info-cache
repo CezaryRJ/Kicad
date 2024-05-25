@@ -1,4 +1,4 @@
-23362015333324537
+23363731802175727
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56055,6 +56055,13 @@ Terminal
 0
 2
 2
+Footprints_cez
+esp32-wroom-32u
+
+
+0
+38
+38
 Footprints_cez
 nRF24L01_big
 nRF24L01 breakout board
