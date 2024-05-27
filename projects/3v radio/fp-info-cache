@@ -1,4 +1,4 @@
-23355150853527412
+23367166329874388
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56014,12 +56014,26 @@ DB9
 11
 11
 Footprints_cez
+GY-NEO6MV2
+
+
+0
+4
+4
+Footprints_cez
 Gamecube controller
 
 
 0
 7
 7
+Footprints_cez
+MPU6500
+
+
+0
+10
+10
 Footprints_cez
 N64_controller
 
@@ -56028,12 +56042,47 @@ N64_controller
 3
 3
 Footprints_cez
+Playstation 2 controller 90 degree
+
+
+0
+9
+9
+Footprints_cez
+TB6612FNG
+
+
+0
+16
+16
+Footprints_cez
+Terminal
+
+
+0
+2
+2
+Footprints_cez
+WeMos D1 Mini
+
+
+0
+16
+16
+Footprints_cez
+esp32-wroom-32u
+
+
+0
+38
+38
+Footprints_cez
 nRF24L01_big
 nRF24L01 breakout board
 nRF24L01 adapter breakout
 0
 14
-9
+8
 Footprints_cez
 nes_controller
 

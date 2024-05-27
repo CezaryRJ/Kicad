@@ -30,7 +30,7 @@
 		)
 	)
 	(property "Footprint" "nRF24L01_big"
-		(at 9.652 -7.112 0)
+		(at 19.304 -5.207 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -187,7 +187,7 @@
 		(layer "F.Fab")
 		(uuid "42e08138-0484-4787-931b-01f234585739")
 	)
-	(pad "0" thru_hole rect
+	(pad "" thru_hole rect
 		(at 37.738 -2.54)
 		(size 1.7 1.7)
 		(drill 1)
@@ -195,7 +195,7 @@
 		(remove_unused_layers no)
 		(uuid "444cc935-1039-47bb-92c5-1a6cfc5c1036")
 	)
-	(pad "0" thru_hole oval
+	(pad "" thru_hole oval
 		(at 37.738 0)
 		(size 1.7 1.7)
 		(drill 1)
@@ -203,7 +203,7 @@
 		(remove_unused_layers no)
 		(uuid "98f6152a-247b-4c1a-9802-07f6a3d48244")
 	)
-	(pad "0" thru_hole oval
+	(pad "" thru_hole oval
 		(at 37.738 2.54)
 		(size 1.7 1.7)
 		(drill 1)
@@ -211,7 +211,7 @@
 		(remove_unused_layers no)
 		(uuid "a364d8e6-7a86-42f3-aaa0-b3f18fd66fa9")
 	)
-	(pad "0" thru_hole oval
+	(pad "" thru_hole oval
 		(at 37.738 5.08)
 		(size 1.7 1.7)
 		(drill 1)
@@ -219,7 +219,7 @@
 		(remove_unused_layers no)
 		(uuid "498c6a0c-508c-4d62-9a77-ae92f109c8a8")
 	)
-	(pad "0" thru_hole oval
+	(pad "" thru_hole oval
 		(at 37.738 7.62)
 		(size 1.7 1.7)
 		(drill 1)
@@ -227,7 +227,7 @@
 		(remove_unused_layers no)
 		(uuid "94a30dcd-7de2-4b63-9bda-fbee126cdc6b")
 	)
-	(pad "0" thru_hole oval
+	(pad "" thru_hole oval
 		(at 37.738 10.16)
 		(size 1.7 1.7)
 		(drill 1)
