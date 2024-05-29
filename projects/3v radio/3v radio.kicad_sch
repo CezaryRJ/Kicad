@@ -1656,7 +1656,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 12.7 5.08 180)
 					(length 2.54)
 					(name "Detect_device"
@@ -1802,12 +1802,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7a64a25-bfbc-4068-bc94-f17a0f5e4362")
-	)
-	(junction
-		(at 148.59 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fba7f9a9-9784-459c-b620-f47fcd0bebf7")
 	)
 	(wire
 		(pts
@@ -2021,17 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 148.59 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48342c2d-70b7-4903-8af6-ea18a6b529a1")
-	)
-	(wire
-		(pts
-			(xy 119.38 83.82) (xy 148.59 83.82)
+			(xy 119.38 83.82) (xy 147.32 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2118,16 +2102,6 @@
 			(type default)
 		)
 		(uuid "6a140d28-d904-4b76-9d25-02bb7fae63e3")
-	)
-	(wire
-		(pts
-			(xy 154.94 45.72) (xy 149.86 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a2a58a7-2059-49da-8503-d6fcc795bc25")
 	)
 	(wire
 		(pts
@@ -2218,16 +2192,6 @@
 			(type default)
 		)
 		(uuid "91f343ca-c435-4229-a372-a49ee6c99a96")
-	)
-	(wire
-		(pts
-			(xy 149.86 45.72) (xy 149.86 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92199532-9ca0-4804-811d-be70a5689e45")
 	)
 	(wire
 		(pts
@@ -2338,16 +2302,6 @@
 			(type default)
 		)
 		(uuid "acf8d810-5d34-4fa3-8cf4-5701b64bbe64")
-	)
-	(wire
-		(pts
-			(xy 148.59 82.55) (xy 147.32 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad7170a4-8085-4d24-9113-8b8bb52d5e75")
 	)
 	(wire
 		(pts
@@ -2511,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 83.82) (xy 148.59 82.55)
+			(xy 147.32 83.82) (xy 147.32 82.55)
 		)
 		(stroke
 			(width 0)
