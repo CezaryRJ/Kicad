@@ -92,6 +92,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -103,6 +104,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -115,6 +117,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -127,6 +130,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -139,6 +143,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -158,10 +163,11 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "875ebee9-5c2b-4e62-b76d-5de5df8c0f18")
+			(uuid "c0f1f64c-b124-48c5-a1be-c274dec70a4a")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -169,10 +175,11 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "7606b2c5-88a2-4a8e-9734-191c0bcf935a")
+			(uuid "16fc7b81-c00c-4f5e-bc9b-8700a72ae4c6")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -185,6 +192,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -197,6 +205,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -209,6 +218,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -217,7 +227,7 @@
 			(size 3.2 3.2)
 			(drill 3.2)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "0bc77f5f-1f59-4fb8-9e5c-a458a02efe15")
+			(uuid "fdfd370c-9b76-4d12-a049-94be8177193d")
 		)
 	)
 	(footprint ""
@@ -228,10 +238,11 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "875ebee9-5c2b-4e62-b76d-5de5df8c0f18")
+			(uuid "0eb875e6-2e99-4d7b-8874-6babf1a558b8")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -239,10 +250,11 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "7606b2c5-88a2-4a8e-9734-191c0bcf935a")
+			(uuid "3a84f5b4-a1a1-4d0c-98b0-50d2ecbac708")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -255,6 +267,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -267,6 +280,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -279,6 +293,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -287,7 +302,7 @@
 			(size 3.2 3.2)
 			(drill 3.2)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "0bc77f5f-1f59-4fb8-9e5c-a458a02efe15")
+			(uuid "5e26925d-b6fb-47cb-874b-a96dabcd5d39")
 		)
 	)
 	(footprint ""
@@ -298,10 +313,11 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "875ebee9-5c2b-4e62-b76d-5de5df8c0f18")
+			(uuid "7c2f2a4e-271d-4129-9c59-34fb59d99e21")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -309,10 +325,11 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "7606b2c5-88a2-4a8e-9734-191c0bcf935a")
+			(uuid "342c7e4a-657e-4fc2-991f-fc3e0a69a414")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -325,6 +342,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -337,6 +355,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -349,6 +368,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -357,7 +377,7 @@
 			(size 3.2 3.2)
 			(drill 3.2)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "0bc77f5f-1f59-4fb8-9e5c-a458a02efe15")
+			(uuid "d5eec808-fad3-4394-9429-daf3a37b3a3b")
 		)
 	)
 	(gr_rect
