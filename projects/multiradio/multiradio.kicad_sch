@@ -1349,6 +1349,141 @@
 				)
 			)
 		)
+		(symbol "Symbols_cez:GY-NEO6MV2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "GPS"
+				(at 13.462 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Footprints_cez:GY-NEO6MV2"
+				(at 2.54 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GY-NEO6MV2_0_1"
+				(rectangle
+					(start 2.54 5.08)
+					(end 11.43 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "GY-NEO6MV2_1_1"
+				(pin passive line
+					(at 0 3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 1.27 0)
+					(length 2.54)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -1.27 0)
+					(length 2.54)
+					(name "RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -3.81 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Symbols_cez:Gamecube_controller"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4227,6 +4362,12 @@
 		(uuid "31706aa0-7ece-48c1-a7c2-04dd74cb7964")
 	)
 	(junction
+		(at 113.03 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3629d29b-7491-4ecf-8e4d-b3b2b3cb5116")
+	)
+	(junction
 		(at 90.17 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4263,6 +4404,12 @@
 		(uuid "5bd0fab5-01d8-492d-8ea3-938b3f2159d9")
 	)
 	(junction
+		(at 57.15 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6851c1b2-dbad-4831-a46c-66d6c3174edb")
+	)
+	(junction
 		(at 74.93 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4279,6 +4426,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82296694-d878-48f0-b140-84d5fb2279c7")
+	)
+	(junction
+		(at 44.45 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "826bc852-b048-4421-a223-acea878aa083")
 	)
 	(junction
 		(at 80.01 19.05)
@@ -4560,6 +4713,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 24.13) (xy 53.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8faf8c-73a4-4e2b-8aae-1dcedbd8cd06")
+	)
+	(wire
+		(pts
 			(xy 137.16 22.86) (xy 149.86 22.86)
 		)
 		(stroke
@@ -4617,6 +4780,16 @@
 			(type default)
 		)
 		(uuid "0e2fe560-1440-40fe-8b47-476e950e73cd")
+	)
+	(wire
+		(pts
+			(xy 80.01 35.56) (xy 80.01 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec280c6-c57a-432f-a267-e2a666dd6ff3")
 	)
 	(wire
 		(pts
@@ -4727,6 +4900,16 @@
 			(type default)
 		)
 		(uuid "16ec5653-2eb7-4c23-ad91-75b706179c6d")
+	)
+	(wire
+		(pts
+			(xy 116.84 27.94) (xy 116.84 -3.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178f109a-193b-4ea0-aa10-341408ed4da9")
 	)
 	(wire
 		(pts
@@ -4970,6 +5153,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 11.43) (xy 52.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358537dd-2483-4160-bc04-7659a3c86b55")
+	)
+	(wire
+		(pts
 			(xy 96.52 26.67) (xy 100.33 26.67)
 		)
 		(stroke
@@ -4977,6 +5170,16 @@
 			(type default)
 		)
 		(uuid "36b73399-40f8-49cf-83b0-b734d02d918a")
+	)
+	(wire
+		(pts
+			(xy 44.45 13.97) (xy 44.45 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37347496-66ab-44eb-b33e-a816bf348409")
 	)
 	(wire
 		(pts
@@ -5007,6 +5210,16 @@
 			(type default)
 		)
 		(uuid "3a0cb16d-be62-4e8b-a154-3a8b04d47fd1")
+	)
+	(wire
+		(pts
+			(xy 113.03 26.67) (xy 135.89 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2c9db0-4f0a-419c-9164-927d9404b20b")
 	)
 	(wire
 		(pts
@@ -5077,6 +5290,16 @@
 			(type default)
 		)
 		(uuid "407ad4d4-7af4-41b2-abb2-dde6456f65b4")
+	)
+	(wire
+		(pts
+			(xy 54.61 11.43) (xy 54.61 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e668dd-86b0-4c5d-8b2d-c262494a9fae")
 	)
 	(wire
 		(pts
@@ -5300,7 +5523,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 26.67) (xy 135.89 26.67)
+			(xy 100.33 26.67) (xy 113.03 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5327,6 +5550,16 @@
 			(type default)
 		)
 		(uuid "5b22e489-461d-41a8-98a4-aa2208d7ed23")
+	)
+	(wire
+		(pts
+			(xy 49.53 13.97) (xy 44.45 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5978ff-dc43-4137-9fb3-8d8858788806")
 	)
 	(wire
 		(pts
@@ -5367,6 +5600,16 @@
 			(type default)
 		)
 		(uuid "601d5a70-5344-4c0f-81ca-7f820889c206")
+	)
+	(wire
+		(pts
+			(xy 80.01 34.29) (xy 87.63 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b74a45-bf55-44a1-baa7-08e533b79fab")
 	)
 	(wire
 		(pts
@@ -5437,6 +5680,16 @@
 			(type default)
 		)
 		(uuid "6d28d1b6-7c45-49db-8dec-8124fd36bf58")
+	)
+	(wire
+		(pts
+			(xy 52.07 48.26) (xy 54.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7ab1e0-e852-4fd8-9fcd-4ee40f94b5af")
 	)
 	(wire
 		(pts
@@ -5650,7 +5903,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 19.05) (xy 66.04 19.05)
+			(xy 113.03 -8.89) (xy 113.03 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "960ed56c-4661-4b1d-8ca2-294d3c5e04cb")
+	)
+	(wire
+		(pts
+			(xy 46.99 19.05) (xy 57.15 19.05)
 		)
 		(stroke
 			(width 0)
@@ -5760,6 +6023,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 27.94) (xy 116.84 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3ea96b-e918-4e41-bdc3-460be693e4bf")
+	)
+	(wire
+		(pts
 			(xy 121.92 48.26) (xy 128.27 48.26)
 		)
 		(stroke
@@ -5850,6 +6123,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 34.29) (xy 87.63 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acae5a21-fc03-4a5d-852a-a8adb0e28888")
+	)
+	(wire
+		(pts
 			(xy 49.53 55.88) (xy 54.61 55.88)
 		)
 		(stroke
@@ -5927,6 +6210,16 @@
 			(type default)
 		)
 		(uuid "b39a238c-de65-4262-abd7-a8070356b789")
+	)
+	(wire
+		(pts
+			(xy 49.53 11.43) (xy 49.53 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57e18bf-f95b-4a01-99f2-3623446ab7ee")
 	)
 	(wire
 		(pts
@@ -6100,6 +6393,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 -8.89) (xy 113.03 -8.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb005c21-e7c3-48ab-a47a-00b9d81d1da5")
+	)
+	(wire
+		(pts
 			(xy 157.48 40.64) (xy 157.48 39.37)
 		)
 		(stroke
@@ -6140,6 +6443,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 45.72) (xy 54.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bfa1c8-fd34-4c31-97bf-fe4163d1ee7d")
+	)
+	(wire
+		(pts
 			(xy 46.99 52.07) (xy 40.64 52.07)
 		)
 		(stroke
@@ -6157,6 +6470,16 @@
 			(type default)
 		)
 		(uuid "d4ea0d07-ac95-4e10-868c-dfbb7cb4a364")
+	)
+	(wire
+		(pts
+			(xy 57.15 11.43) (xy 57.15 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56a433f-0463-43eb-8f1a-dd4a163eb3d6")
 	)
 	(wire
 		(pts
@@ -6340,6 +6663,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 19.05) (xy 66.04 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8569507-0251-4a93-a48a-2c2a0bbdb708")
+	)
+	(wire
+		(pts
 			(xy 43.18 44.45) (xy 40.64 44.45)
 		)
 		(stroke
@@ -6407,6 +6740,16 @@
 			(type default)
 		)
 		(uuid "eed29952-d1b3-4021-95fd-6728405ed9d8")
+	)
+	(wire
+		(pts
+			(xy 54.61 24.13) (xy 53.34 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef938a77-debe-4d36-8331-4b2f955ba9f2")
 	)
 	(wire
 		(pts
@@ -7602,6 +7945,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols_cez:Switch_A03_PS-22F03")
+		(at 133.35 -12.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa26a3d5-ff3d-444e-8c6b-4c338f662cfc")
+		(property "Reference" "U6"
+			(at 124.46 -10.7951 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 124.46 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints_cez:Switch A03 PS-22F03"
+			(at 119.888 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8074480d-471e-4633-b485-8feeb1e6ff78")
+		)
+		(pin "2"
+			(uuid "86d92709-0111-40b0-b778-6e76ceb48451")
+		)
+		(pin "4"
+			(uuid "65be00ff-cd6b-435c-a409-a6e75b40b50f")
+		)
+		(pin "6"
+			(uuid "749ac455-70db-44e5-91ba-4c5f7229aeb3")
+		)
+		(pin "1"
+			(uuid "e55ff55d-3615-42de-9f42-f09c99cbc6c8")
+		)
+		(pin "5"
+			(uuid "a2688ec2-510e-4b4f-9d6d-bbce8e1ad3a4")
+		)
+		(instances
+			(project "multiradio"
+				(path "/677ed936-3c7a-40d8-8339-d50213b62150"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Symbols_cez:snes_controller")
 		(at 35.56 35.56 180)
 		(unit 1)
@@ -7827,6 +8252,82 @@
 			(project "multiradio"
 				(path "/677ed936-3c7a-40d8-8339-d50213b62150"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols_cez:GY-NEO6MV2")
+		(at 53.34 11.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bce873b1-7182-488b-a706-c93652ecd573")
+		(property "Reference" "GPS1"
+			(at 59.69 3.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 59.69 5.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints_cez:GY-NEO6MV2"
+			(at 60.198 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a2dd8d21-8364-4dee-938e-811fb00a4271")
+		)
+		(pin "4"
+			(uuid "fe665169-0f2a-4f92-9fbd-b84da4c48a4d")
+		)
+		(pin "2"
+			(uuid "9fb6338b-67a1-49d0-a7b6-7e0f15f003b9")
+		)
+		(pin "1"
+			(uuid "bbc01f59-b40e-4baa-be64-e674d88261b0")
+		)
+		(instances
+			(project ""
+				(path "/677ed936-3c7a-40d8-8339-d50213b62150"
+					(reference "GPS1")
 					(unit 1)
 				)
 			)

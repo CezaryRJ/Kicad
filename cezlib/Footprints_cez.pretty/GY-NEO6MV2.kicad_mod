@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 13.716 0)
+		(at -0.144 13.716 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "GY-NEO6MV2"
-		(at 0 21.59 0)
+		(at -0.144 21.59 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -30,7 +30,7 @@
 		)
 	)
 	(property "Footprint" "GY-NEO6MV2"
-		(at -0.254 17.526 0)
+		(at -0.398 17.526 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -43,7 +43,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 14.932 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -56,7 +56,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 14.932 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -70,8 +70,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -17.982 2.432)
-		(end 17.018 27.432)
+		(start -18.126 2.432)
+		(end 16.874 27.432)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -81,7 +81,7 @@
 		(uuid "1c41679b-b2ca-4e2d-951b-a63152bd3797")
 	)
 	(fp_text user "TX"
-		(at -21.444953 14.37 0)
+		(at -21.444953 14.2015 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "34c46ec6-02bf-43f1-b543-ef8454c4a5a6")
@@ -94,7 +94,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at -22.111619 11.83 0)
+		(at -22.111619 11.6615 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "997fa3aa-58f9-4553-bc1d-79097b12ce13")
@@ -107,7 +107,7 @@
 		)
 	)
 	(fp_text user "RX"
-		(at -21.564 16.91 0)
+		(at -21.564 16.7415 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9eb232cc-2ce7-4131-819e-aa5a42ccabde")
@@ -120,7 +120,7 @@
 		)
 	)
 	(fp_text user "VCC"
-		(at -22.016381 19.45 0)
+		(at -22.016381 19.2815 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a8ac9fcd-07e6-403a-a456-fb40d70b77e8")
@@ -133,35 +133,35 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -15.976 4.464)
+		(at -15.976 4.682)
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "a62a3ee0-a181-47cc-ab24-de387ee14848")
 	)
 	(pad "" np_thru_hole circle
-		(at -15.976 25.292)
+		(at -15.976 25.182)
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "dfc095b1-020f-43e8-8cd1-b00ceef2a476")
 	)
 	(pad "" np_thru_hole circle
-		(at 15.012 4.464)
+		(at 14.724 4.682)
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "F&B.Cu" "*.Mask")
-		(uuid "a3a74a1e-2ce3-4241-99b3-533514885644")
+		(uuid "8f60c0b9-3611-4ac5-ba62-206d0a03ddac")
 	)
 	(pad "" np_thru_hole circle
-		(at 15.012 25.292)
+		(at 14.724 25.182)
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "F&B.Cu" "*.Mask")
-		(uuid "4303df7a-803f-43b6-8cb4-846e170abf8b")
+		(uuid "d6af7e5c-a042-4ded-a743-3b16025c1075")
 	)
 	(pad "1" thru_hole rect
-		(at -15.468 11.132)
+		(at -16.876 11.132)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -169,7 +169,7 @@
 		(uuid "a2d58656-c204-4bc0-bbb5-da8786e8fae0")
 	)
 	(pad "2" thru_hole oval
-		(at -15.468 13.672)
+		(at -16.876 13.672)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -177,7 +177,7 @@
 		(uuid "07a6c42e-0e22-4ab1-bfa1-8fc89574796e")
 	)
 	(pad "3" thru_hole oval
-		(at -15.468 16.212)
+		(at -16.876 16.212)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -185,11 +185,31 @@
 		(uuid "e4b0fa45-4f4b-4a22-83f8-d6eef6ab48cb")
 	)
 	(pad "4" thru_hole oval
-		(at -15.468 18.752)
+		(at -16.876 18.752)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "115e2aca-17e1-483e-8bde-ec5969966fc0")
+	)
+	(group ""
+		(uuid "7b4cc6de-f4e1-4e93-9338-85b01aba41eb")
+		(members "07a6c42e-0e22-4ab1-bfa1-8fc89574796e" "115e2aca-17e1-483e-8bde-ec5969966fc0"
+			"1c41679b-b2ca-4e2d-951b-a63152bd3797" "24ad979f-9097-49d3-89ed-23bf02a67358"
+			"42dbf13b-8012-4339-9f7c-07a527340d45" "963bbd5e-c32e-44c1-821d-226a1df848be"
+			"a2d58656-c204-4bc0-bbb5-da8786e8fae0" "e4b0fa45-4f4b-4a22-83f8-d6eef6ab48cb"
+		)
+	)
+	(group ""
+		(uuid "5b232f52-4c6d-4fcf-bacd-ace093c434a0")
+		(members "8f60c0b9-3611-4ac5-ba62-206d0a03ddac" "a62a3ee0-a181-47cc-ab24-de387ee14848"
+			"d6af7e5c-a042-4ded-a743-3b16025c1075" "dfc095b1-020f-43e8-8cd1-b00ceef2a476"
+		)
+	)
+	(group ""
+		(uuid "e73e806e-2686-4f95-8195-6713e868ad49")
+		(members "34c46ec6-02bf-43f1-b543-ef8454c4a5a6" "997fa3aa-58f9-4553-bc1d-79097b12ce13"
+			"9eb232cc-2ce7-4131-819e-aa5a42ccabde" "a8ac9fcd-07e6-403a-a456-fb40d70b77e8"
+		)
 	)
 )
