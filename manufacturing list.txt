@@ -1,4 +1,5 @@
-3.3v radio with bat
-3.3v radio
-remote controll
-infoscreen*
+3.3v radio with bat - done
+remote controll - done
+arcade stick - done
+infoscreen - done
+multiremote
