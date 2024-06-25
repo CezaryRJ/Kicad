@@ -7955,7 +7955,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Footprints_cez:Playstation 2 controller 90 degree"
+		(property "Footprint" "Footprints_cez:Playstation 2 controller 180"
 			(at 194.564 25.654 0)
 			(effects
 				(font
