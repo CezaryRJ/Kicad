@@ -2,4 +2,7 @@
 remote controll - done
 arcade stick - done
 infoscreen - done
-multiremote
+multiremote - done
+
+pro micro nintendo adapter
+esp32 c3  wii adapter

@@ -70,7 +70,7 @@
 	)
 	(attr through_hole)
 	(fp_text user "GND"
-		(at -2.444 8.0205 0)
+		(at 2.556 8.0205 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "066c5142-61f2-435b-8ef9-8a7091c119ae")
@@ -83,7 +83,7 @@
 		)
 	)
 	(fp_text user "CMD"
-		(at -2.444 16.0205 0)
+		(at 2.556 16.0205 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1afe0484-816d-46da-ad7b-b7b5d43d6ff8")
@@ -96,7 +96,7 @@
 		)
 	)
 	(fp_text user "MOTOR"
-		(at -2.444 12.0205 0)
+		(at 2.556 12.0205 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "341dd263-b3bc-423d-82be-25e4335a5eba")
@@ -109,7 +109,7 @@
 		)
 	)
 	(fp_text user "ACK"
-		(at -2.444 -11.9795 0)
+		(at 2.556 -11.9795 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7c9e95f8-76dd-4c17-820c-10ed75ed5a4a")
@@ -122,7 +122,7 @@
 		)
 	)
 	(fp_text user "DATA"
-		(at -2.444 20.0205 0)
+		(at 2.556 20.0205 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a8b4b112-1f99-4337-bf96-de5e3c139620")
@@ -135,7 +135,7 @@
 		)
 	)
 	(fp_text user "CLK"
-		(at -2.444 -3.9795 0)
+		(at 2.556 -3.9795 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ae80821b-3bbf-4136-bf54-c996496e50c8")
@@ -148,7 +148,7 @@
 		)
 	)
 	(fp_text user "ATTN"
-		(at -2.444 0.0205 0)
+		(at 2.556 0.0205 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ca4ea3cf-2457-435f-a470-1dc577ce26dd")
@@ -161,7 +161,7 @@
 		)
 	)
 	(fp_text user "VCC"
-		(at -2.444 4.0205 0)
+		(at 2.556 4.0205 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f3702bb9-44a4-4136-8c6d-c3d3c0c73aed")
@@ -254,12 +254,6 @@
 		(uuid "439fc7cf-38ca-4d94-a6ec-a7ab98ca7af8")
 	)
 	(group ""
-		(uuid "9baafa8d-c2cc-4413-8907-75249578d5b0")
-		(members "01945934-1372-45fb-a097-2a4776afe7e2" "13c02309-acd2-4137-adee-2a25daee3417"
-			"fd924c8d-1908-492a-8827-2d4c7211838d"
-		)
-	)
-	(group ""
 		(uuid "01945934-1372-45fb-a097-2a4776afe7e2")
 		(members "38954b69-9f33-4339-8d17-6f9ea16e3379" "439fc7cf-38ca-4d94-a6ec-a7ab98ca7af8"
 			"6615a3fa-1c1b-4fe3-af6b-fd8856d0d7d5" "78427931-d294-47cb-a4a8-9e22e69be082"
@@ -267,6 +261,10 @@
 			"a8e57599-79e6-417c-8d9f-f03296990e1b" "ec56394f-dac8-410d-b918-1964fe4e7b35"
 			"f20c6f3c-b9ca-437b-8ddd-6b4f9b7642f9"
 		)
+	)
+	(group ""
+		(uuid "19f4833d-fb00-4bdc-9b65-fd3df72fc942")
+		(members "01945934-1372-45fb-a097-2a4776afe7e2" "fd924c8d-1908-492a-8827-2d4c7211838d")
 	)
 	(group ""
 		(uuid "13c02309-acd2-4137-adee-2a25daee3417")
