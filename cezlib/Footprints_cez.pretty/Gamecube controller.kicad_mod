@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0.032 9.3152 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Gamecube controller"
-		(at 0 13.5 0)
+		(at 0.032 14.8152 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -30,7 +30,7 @@
 		)
 	)
 	(property "Footprint" "Gamecube controller"
-		(at 0 2.5 0)
+		(at 0.032 3.8152 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -43,7 +43,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0.032 9.3152 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -56,7 +56,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0.032 9.3152 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -69,8 +69,19 @@
 		)
 	)
 	(attr through_hole)
-	(pad "0" thru_hole oval
-		(at 0.09 11.115)
+	(fp_rect
+		(start -8.968 0.3152)
+		(end 9.032 18.3152)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3426e034-df03-4a21-8e75-a3b7e824bf7a")
+	)
+	(pad "" thru_hole oval
+		(at 0.122 12.4302)
 		(size 2.65 0.85)
 		(drill oval 2.15 0.35)
 		(layers "*.Cu" "*.Mask")
@@ -78,7 +89,7 @@
 		(uuid "1cd47af0-b3ed-41ac-93fd-ff6b2620d19e")
 	)
 	(pad "1" thru_hole oval
-		(at 2 6)
+		(at 2.032 7.3152)
 		(size 1.2 0.8)
 		(drill oval 0.7 0.3)
 		(layers "*.Cu" "*.Mask")
@@ -86,7 +97,7 @@
 		(uuid "db8a0e36-1f5f-40a9-8347-cbb5fe89c109")
 	)
 	(pad "2" thru_hole oval
-		(at 0.09 6)
+		(at 0.122 7.3152)
 		(size 1.2 0.8)
 		(drill oval 0.7 0.3)
 		(layers "*.Cu" "*.Mask")
@@ -94,7 +105,7 @@
 		(uuid "cf970d92-c8d1-43cb-b289-d48b17f00ef8")
 	)
 	(pad "3" thru_hole oval
-		(at -1.82 6)
+		(at -1.788 7.3152)
 		(size 1.2 0.8)
 		(drill oval 0.7 0.3)
 		(layers "*.Cu" "*.Mask")
@@ -102,7 +113,7 @@
 		(uuid "d7aae5ec-b75e-469a-a8b5-3a8af450fc1f")
 	)
 	(pad "4" thru_hole oval
-		(at 2 4.73)
+		(at 2.032 6.0452)
 		(size 1.2 0.8)
 		(drill oval 0.7 0.3)
 		(layers "*.Cu" "*.Mask")
@@ -110,7 +121,7 @@
 		(uuid "2c1d5c77-5834-4797-9416-21aec7ab6df5")
 	)
 	(pad "5" thru_hole oval
-		(at 0.09 4.73)
+		(at 0.122 6.0452)
 		(size 1.2 0.8)
 		(drill oval 0.7 0.3)
 		(layers "*.Cu" "*.Mask")
@@ -118,11 +129,20 @@
 		(uuid "e45e8e82-e864-4454-9339-ac664e9d3816")
 	)
 	(pad "6" thru_hole oval
-		(at -1.82 4.73)
+		(at -1.788 6.0452)
 		(size 1.2 0.8)
 		(drill oval 0.7 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "e26e7460-17fe-4300-adc6-d854f4327c23")
+	)
+	(group ""
+		(uuid "3c9356ab-a4b1-4933-b040-273fde6fccab")
+		(members "04f8eaf6-4e26-45b2-9a4a-a2deb760ff85" "1cd47af0-b3ed-41ac-93fd-ff6b2620d19e"
+			"2c1d5c77-5834-4797-9416-21aec7ab6df5" "89fef804-3fbb-46a6-b013-00327ca23def"
+			"cf970d92-c8d1-43cb-b289-d48b17f00ef8" "d7aae5ec-b75e-469a-a8b5-3a8af450fc1f"
+			"db8a0e36-1f5f-40a9-8347-cbb5fe89c109" "e26e7460-17fe-4300-adc6-d854f4327c23"
+			"e45e8e82-e864-4454-9339-ac664e9d3816"
+		)
 	)
 )

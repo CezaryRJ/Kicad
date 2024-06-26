@@ -4,5 +4,6 @@ arcade stick - done
 infoscreen - done
 multiremote - done
 
-pro micro nintendo adapter
-esp32 c3  wii adapter
+pro micro nintendo adapter - done
+
+breakouts - wii and ps2
