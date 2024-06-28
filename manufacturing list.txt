@@ -1,7 +1,7 @@
-3.3v radio with bat - done
-remote controll - done
-arcade stick - done
-infoscreen - done
+3.3v radio with bat - done - ready
+remote controll - done - ready
+arcade stick - done - ready
+infoscreen - done - ready
 multiremote - done
 
 pro micro nintendo adapter - done
