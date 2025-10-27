@@ -149,7 +149,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 28672)
 			(uuid "4c26eb4c-513f-4769-9a25-811686dff5e2")
 		)
 		(fp_circle
@@ -161,7 +160,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 28672)
 			(uuid "098f7d94-6919-40b7-8185-d8fa6c900942")
 		)
 		(fp_text user "${REFERENCE}"
@@ -618,7 +616,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 28672)
 			(uuid "702fb9f6-ad44-47dc-bf97-9de5d7074e64")
 		)
 		(fp_circle
@@ -630,7 +627,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 28672)
 			(uuid "92808c26-c102-4e82-acbd-9fb37013f9dc")
 		)
 		(fp_text user "${REFERENCE}"
@@ -990,6 +986,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "CRJ"
+		(at 105.5 66.5 0)
+		(layer "F.SilkS")
+		(uuid "0c2a1256-900a-4270-8413-3d59646aa0a9")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SDA"
 		(at 116.9995 70.4356 90)
 		(layer "F.SilkS")
@@ -1034,18 +1042,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "CRJ"
-		(at 105.5 66.5 0)
-		(layer "Edge.Cuts")
-		(uuid "0c2a1256-900a-4270-8413-3d59646aa0a9")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
